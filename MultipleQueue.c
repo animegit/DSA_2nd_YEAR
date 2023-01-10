@@ -41,6 +41,7 @@ element delete(int i){
 
 void display(int i){
     node* temp;
+    temp=front[i];
     for(;temp;temp=temp->link){
         printf("%d\n",(temp->data).val);
     }
